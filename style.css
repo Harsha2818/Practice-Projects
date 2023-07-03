@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+}
+
+.container{
+    max-width: 80%;
+    padding: 34px ;
+    margin: auto;
+    font-size: 45;
+   
+}
+
+.container h1,p{
+    text-align: center;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+}
+
+input, textarea{
+    width: 80%;
+    margin: 10px auto;
+    padding: 7px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 18px;
+    outline: none;
+    
+}
+
+p{
+   font-size: 25px; 
+}
+form{
+    display: flex;
+    allign-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    width: 10%;
+    margin: 10px auto;
+    padding: 7px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 18px;
+    outline: none;
+
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.submitmsg{
+    font-size: 26px;
+    color: rebeccapurple;
+}
